@@ -23,7 +23,7 @@
                     <a class="nav-link" href="#">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./contact-form">Contact Us</a>
+                    <a class="nav-link" href="/contact-form">Contact Us</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">

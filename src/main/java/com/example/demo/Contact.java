@@ -22,16 +22,10 @@ public class Contact extends HttpServlet {
             pw.println(output);
         }
 	}
-
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
     @Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doGet(request, response);
 	}
-	
-    // Use Text Block -> """ fhfhghhghghghgh hfhfhghhg """
     private String generateContactUsForm(HttpServletRequest request, HttpServletResponse response) {
         StringBuilder sb = new StringBuilder();
         sb.append("<!DOCTYPE html>");
